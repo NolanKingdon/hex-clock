@@ -1,0 +1,13 @@
+{
+  "main.css": "/hex-clock/static/css/main.1ef5e1e1.chunk.css",
+  "main.js": "/hex-clock/static/js/main.883083c4.chunk.js",
+  "main.js.map": "/hex-clock/static/js/main.883083c4.chunk.js.map",
+  "static/js/1.27bb22cb.chunk.js": "/hex-clock/static/js/1.27bb22cb.chunk.js",
+  "static/js/1.27bb22cb.chunk.js.map": "/hex-clock/static/js/1.27bb22cb.chunk.js.map",
+  "runtime~main.js": "/hex-clock/static/js/runtime~main.b039279e.js",
+  "runtime~main.js.map": "/hex-clock/static/js/runtime~main.b039279e.js.map",
+  "static/css/main.1ef5e1e1.chunk.css.map": "/hex-clock/static/css/main.1ef5e1e1.chunk.css.map",
+  "index.html": "/hex-clock/index.html",
+  "precache-manifest.ec942d7a84ecabb4ad26960f349891e0.js": "/hex-clock/precache-manifest.ec942d7a84ecabb4ad26960f349891e0.js",
+  "service-worker.js": "/hex-clock/service-worker.js"
+}
