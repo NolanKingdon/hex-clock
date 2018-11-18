@@ -1,0 +1,26 @@
+body {
+  margin: 0;
+}
+
+.clock {
+  text-align: center;
+  height: 100vh;
+  width: 100vw;
+  transition: 0.5s;
+}
+
+.clock-face {
+  position: relative;
+  top: 30vh;
+  color: white;
+  font-family: 'Roboto Mono', monospace;
+  font-size: 7vw;
+}
+
+.clock-date {
+  position: relative;
+  top: 30vh;
+  color: white;
+  font-family: 'Roboto Mono', monospace;
+  font-size: 4vw;
+}
