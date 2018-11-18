@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/hex-clock/precache-manifest.ec942d7a84ecabb4ad26960f349891e0.js"
+  "/hex-clock/precache-manifest.5745a0f9afe029609df9b8fbe251e333.js"
 );
 
 workbox.clientsClaim();
