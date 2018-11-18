@@ -17,8 +17,8 @@ function reducer(state = initialState, action) {
       let seconds = timeNow.getSeconds()<10 ? "0" + timeNow.getSeconds() : timeNow.getSeconds();
       let minutes = timeNow.getMinutes()<10 ? "0" + timeNow.getMinutes() : timeNow.getMinutes();
       let hours = timeNow.getHours()<10 ? "0" + timeNow.getHours() : timeNow.getHours();
-      let dateDay = timeNow.getDay();
-      let dateMonth = timeNow.getMonth();
+      let dateDay = timeNow.getDate();
+      let dateMonth = timeNow.getMonth()+1;
       let dateYear = timeNow.getFullYear();
       console.log(`${dateYear}`);
       return {
@@ -53,8 +53,8 @@ function reducer(state = initialState, action) {
       }
     case "NEW_DAY":
       timeNow = new Date();
-      dateDay = timeNow.getDay();
-      dateMonth = timeNow.getMonth();
+      dateDay = timeNow.getDate();
+      dateMonth = timeNow.getMonth()+1;
       dateYear = timeNow.getFullYear();
       return {
         hours: "00",
